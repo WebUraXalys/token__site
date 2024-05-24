@@ -1,0 +1,903 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ramona';
+    src: url('../fonts/Ramona-Light.woff2') format('woff2'),
+         url('../fonts/Ramona-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ramona';
+    src: url('../fonts/Ramona-Bold.woff2') format('woff2'),
+         url('../fonts/Ramona-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+   font-family: 'Ramona', sans-serif;
+}
+p, h4{
+   line-height: 1.5;
+}
+.container{
+   width: 1140px;
+   margin: auto;
+}
+.bgGray{
+   background-color: #e6e6e6;
+}
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+.navbarHeader {
+   font-size: 67px;
+   margin-top: 20px;
+}
+.navbarLinkImg{
+   width: 37px;
+   height: 39px;
+   margin-right: 10px;
+}
+.firstSection{
+   display: flex;
+   flex-direction: column;
+   width: max-content; 
+   margin-left: auto;
+}
+.contractBox{
+   display: flex;
+}
+.contractBoxHeaders{
+   display: flex;
+   margin-top: 10px;
+}
+.contractBoxHeader{
+   font-size: 28px;
+   color: #0052fe;
+}
+.firstSectionHeader{
+   font-size: 200px;
+}
+.logoBase{
+   height: 24px;
+   margin-top: 4px;
+   margin-left: 30px;
+   margin-right: 5px;
+}
+.contractBoxText{
+   font-size: 15px;
+   font-weight: 300;
+   margin-top: 30px;
+}
+.firstSectionHeaderSmall{
+   font-size: 67px;
+   color: #0052fe;
+}
+.contractBoxButtons{
+   margin-left: 75px;
+   display: flex;
+   flex-direction: column;
+}
+.btnBuy{
+   width: 125px;
+   height: 35px;
+   background-color: #0052fe;
+   border: 1px solid #0052fe;
+   color: white;
+   font-size: 17px;
+   border-radius: 5px;
+}
+.btnCopy{
+   width: 125px;
+   height: 35px;
+   color: #0052fe;
+   border: 1px solid #0052fe;
+   font-size: 17px;
+   margin-top: 15px;
+   border-radius: 5px;
+}
+.copyimg{
+   height: 20px;
+   width: 15px;
+}
+.blueText{
+   color: #0052fe;
+}
+.blueTextBold{
+   color: #0052fe;
+   font-weight: 700;
+}
+.sectionHeader{
+   font-size: 37.5px;
+   text-align: center;
+}
+.secondSectionBlock{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+}
+.secondSectiontext{
+   margin-left: 25px;
+   font-size: 20px;
+   font-weight: 300;
+   margin-top: 25px;
+}
+.thirdSection{
+   margin-top: 200px;
+}
+.thirdSectionBlock{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+}
+.thirdSectionBlockLeftHeader{
+   font-size: 23px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+/* .thirdSectionBlockList{
+   margin-top: 45px;
+} */
+.thirdSectionBlockListItem{
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+}
+.itemText{
+   margin-left: 25px;
+   font-size: 18px;
+   font-weight: 300;
+}
+.itemImgtrain{
+   width: 75px;
+}
+.fourthsection{
+   display: flex;
+   justify-content: space-between;
+}
+.fourthsectionblockrightHeader{
+   font-size: 38px;
+   font-weight: 700;
+   padding-top: 70px;
+   margin-bottom: 30px;
+}
+.fourthsectionblockrightUnderTheHeading{
+   font-size: 17px;
+}
+.fourthsectionblockrightText{
+   font-size: 17px;
+   margin-top: 30px;
+}
+.fourthsectionblockright{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.fifthsection{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 80px;
+   padding-bottom: 95px;
+}
+.fifthsectionleftblockTextAndGrayCircle{
+   display: flex;
+   margin-top: 20px;
+}
+.fifthsectionleftblockTextAndBlueCircle{
+   display: flex;
+   margin-top: 20px;
+}
+.blueTextBoldheador{
+   color: #0052fe;
+   font-size: 80px;
+}
+.blueTextBoldUnderTheheador{
+   font-size: 26px;
+}
+.fifthsectionleftText{
+   font-size: 20px;
+   margin-left: 15px;
+}
+.fifthsectionleftblockText{
+   margin-top: 50px;
+}
+.fifthsectionleftblock{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.BlueCircle{
+   height: 20px;
+   width: 20px;
+   background-color: #0052fe;
+   border-radius: 100%;
+   border: 1px solid;
+}
+.GrayCircle{
+   height: 20px;
+   width: 20px;
+   background-color: #e6e6e6;
+   border-radius: 100%;
+   border: 1px solid;
+}.fourthsection{
+   display: flex;
+   justify-content: space-between;
+}
+.fourthsectionblockrightHeader{
+   font-size: 38px;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+.fourthsectionblockrightUnderTheHeading{
+   font-size: 17px;
+}
+.fourthsectionblockrightText{
+   font-size: 17x;
+   margin-top: 30px;
+}
+.fourthsectionblockright{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.sevenSection{
+   padding-bottom: 90px;
+}
+.sevenSectionblockBotton{
+   margin-top: 100px;
+}
+.sevenSectionblockBottonEnd{
+   display: flex;
+   justify-content: space-between;
+ 
+}
+.sevenSectionText{
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   padding-bottom: 58px;
+}
+.sixSection{
+   margin-top: 70px;
+   margin-bottom: 180px;
+}
+.sixSectionblocktop{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.sixSectionBoxImg{
+   border: solid 1px #b5bfc9;
+   background-color: #fff;
+   width: 240px;
+   height: 125px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#TrackSectionSeven{
+   font-size: 90px;
+   font-weight: 700;
+}
+.sixsectionblockrightHeader{
+   font-size: 38px;
+   font-weight: 700;
+   margin-bottom: 42px;
+}
+.sixsectionblockrightText{
+   margin-bottom: 30px;
+   text-align: center;
+}
+.sixSectionImg{
+   display: flex;
+   align-items: center;
+   
+}
+.sixSectionblockEnd{
+   display: flex;
+   justify-content: center;
+   margin-top: 115px;
+}
+.ninthsection{
+   margin-top: 50px
+}
+.ninthsectionblock{
+   display: flex;
+   justify-content: space-between;
+}
+.ninthsectionblockrightlist{
+   display: flex;
+   align-items: center;
+}
+.ninthsectionblockleft{
+   display: flex;
+   align-items: center;
+}
+.ninthsectionblockrightlistText{
+   font-size: 25px;
+   margin-left: 20px;
+}
+.btnBuy2{
+   width: 250px;
+   height: 50px;
+   background-color: #0052fe;
+   border: 1px solid #0052fe;
+   color: white;
+   font-size: 17px;
+   border-radius: 10px;
+   text-align: center;
+}
+.ninthsectionText{
+   text-align: center;
+   color: #0052fe;
+   margin-top: 60px;
+}
+.ninthsectionbutton{
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+   margin-bottom: 110px;
+}
+.ninthsectionheader{
+   text-align: center;
+   font-size: 50px; 
+   color: #0052fe; 
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+footer{
+   background-color: #000;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+   align-items: center;
+}
+.footersocial{
+   display: flex;
+}
+.footerheader{
+   font-size: 50px;
+   color: #0052fe;
+   margin-left: 100px;
+}
+
+.sixSectionBox{
+   border: solid 1px #0052fe ;
+   height: 375px;
+   width: 810px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: auto;
+}
+.SixSectionImgText{
+   font-weight: 300;
+   margin-left: 12px;
+}
+.sixSectionEndImg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.sixSectionBorder{
+   border: solid 1px #0052fe;
+   border-radius: 5px;
+   height: 125px;
+   width: 245px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.sixSectionImgBorder{
+   margin-top: 37px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+.eighthsectionBlockTopRightHeader{
+   font-size: 45px;
+}
+.eighthsectionBlockTop{
+   display: flex;
+   justify-content: space-around;
+   border: 1px solid #b5bfc9;
+   padding: 100px;
+}
+.eighthsectionBlockTopRightText{
+   margin-top: 20px;
+}
+.BaseScanDiv{
+   border:  1px solid #b5bfc9;
+   width: 240px;
+   height: 100px;
+   background-color: #fff;
+   padding: 2px;
+}
+.BaseScanDivImg{
+   width: 215px;
+   height: 85px;
+   margin: 6px;
+}
+.btnCopy2{
+   width: 125px;
+   height: 35px;
+   color: #fff;
+   border: 1px solid #0052fe;
+   font-size: 17px;
+   margin-top: 5px;
+   background-color: #0052fe;
+   border-radius: 10px;
+}
+.fff{
+   color: #e7efff;
+}
+.margin{
+   margin-top: 10px;
+}
+.eighthsection{
+   margin-top: 50px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid #0052fe;
+}
+.tooltip .tooltiptext {
+  width: 120px;
+  top: 120%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip .tooltiptext {
+   visibility: hidden;
+   opacity: 0;
+   width: 125px;
+   background-color: #0052fe;
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   top: 120%;
+   left: 50%;
+   z-index: 1;
+   transition: opacity 0.5s, visibility 1s;
+}
+.tooltip .tooltiptext.visible {
+   visibility: visible;
+   opacity: 1;
+}
+.hoversocial{
+   transition: transform 0.3s ease;
+}
+.hoversocial:hover{
+   transform: scale(1.2);
+}
+.hoverbutton{
+   transition: transform 0.3s ease;
+}
+.hoverbutton:hover{
+   transform: scale(1.2);
+}
+.CircleCenter{
+   display: flex;
+   align-items: center;
+}
+
+@media screen and (max-width: 1450px){
+   .container{
+      width: 90%;
+   }
+}
+@media screen and (max-width: 1030px){
+   .navbarHeader{
+      margin-top: 0;
+   }
+   .navbarButtons{
+      margin-top: 20px;
+   }
+   .submarine{
+      display: flex;
+      align-items: center;
+   }
+   .thirdSectionBlock{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .thirdSectionBlockRight{
+      order: 1;
+      margin-bottom: 20px;
+   }
+   .thirdSectionBlockLeft{
+      order: 2;
+      width: max-content;
+      margin: auto;
+   }
+   .thirdSectionBlockRight {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .thirdSectionBlock{
+      flex-direction: column;
+      margin-top: 50px;
+   }
+   .thirdSectionBlockRight img {
+      max-width: 50%;
+      height: auto;
+      margin-bottom: 80px;
+      margin-top: 60px;
+   }
+   .fourthsectionblockrightHeader{
+      margin-bottom: 15px;
+   }
+   .fourthsectionblockrightText{
+      margin-top: 15px;
+      font-size: 14px;
+   }
+   .fourthsectionblockrightHeader{
+      padding-top: 30px;
+   }
+   .cosmonautimg{
+      width: 95%;
+      height: auto;
+   }
+   .cosmonaut{
+      width: 55%;
+      display: flex;
+      align-items: center;
+   }
+   .chartimg{
+      height: auto;
+      width: 80%;
+   }
+   .fifthsectionrightblock{
+      width: 40%;
+      display: flex;
+      justify-content: flex-end;
+   }
+   .TOKENOMICS{
+      font-size: 60px;
+   }
+   .sevenSectionblockBottonEnd{
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+   .sixSectionBoxImg{
+      margin-top: 20px;
+   }
+   .sevenSectionText{
+      display: block;
+      text-align: center;
+   }
+   .ninthsectionblockrightlistText{
+      font-size: 17px;
+   }
+   .OurFuckYeahRoadmap{
+      font-size: 30px;
+   }
+   .ninthsectionheader{
+      font-size: 40px;
+   }
+}
+@media screen and (max-width: 950px){
+   .firstSection{
+      margin: auto;
+   }
+   .secondSectionBlock{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+
+   .sixSectionBox{
+      width: 80%;
+   }
+   .sixSectionblockEnd{
+      text-align: center;
+   }
+   .sixSectionImgBorder{
+      flex-wrap: wrap;
+   }
+   .sixSectionBorder{
+      margin-top: 30px;
+   }
+}
+@media screen and (max-width: 770px){
+   
+   .contractBox{
+      justify-content: center;
+   }
+   .fourthsection{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .cosmonautimg{
+      width: 120%;
+      height: auto;
+   }
+   .fourthsectionblockrightHeader{
+      text-align: center;
+   }
+   .fourthsectionblockrightUnderTheHeading{
+      font-size: 20px;
+      text-align: center;
+   }
+   .fourthsectionblockrightText{
+      font-size: 20px;
+      align-items: center;
+   }
+   .chartimg{
+      height: auto;
+      width: 90%;
+   }
+   .TOKENOMICS{
+      font-size: 50px;
+   }
+   .fifthsectionmediaundertheheador{
+      font-size: 20px;
+   }
+   .fifthsectionleftText{
+      font-size: 16px;
+   }
+   .ninthsectionblock{
+      flex-wrap: wrap;
+      align-items: center;
+   }
+   .ninthsectionblockright{
+      order: 2;
+   }
+   .ninthsectionblockleft{
+      order: 1;
+      width: max-content;
+      margin: auto;
+   }
+   /* .ninthsectionblockrightlistText{
+      font-size: 20px;
+   } */
+   /* .planetimg{
+      height: ;
+   } */
+   .ninthsectionheader{
+      margin-bottom: 20px;
+   }
+   .piople{
+      height: 80px;
+   }
+   .eighthsection{
+      display: none;
+   }
+}
+@media screen and (max-width: 650px){
+   .footerheader{
+      margin-left: 0;
+   }
+
+}
+@media screen and (max-width: 550px){
+   .footer{
+      flex-wrap: wrap;
+      justify-content: center;
+      height: max-content;
+   }
+   .footersocial{
+      padding: 10px 0;
+   }
+   .navbarLinkImgFooter{
+      width: 30px;
+      height: 30px;
+   }
+
+}
+@media screen and (max-width: 330px){
+   .navbarHeader{
+      font-size: 18px;
+   }
+   .navbarButtons{
+      margin-top: 0;
+   }
+   .navbarLinkImg{
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+   }
+   .firstSection{
+      width: 92%;
+   }
+   .contractBox{
+      flex-direction: column;
+      justify-content: center;
+   }
+   .contractBoxHeader{
+      font-size: 18px;
+      text-align: center;
+   }
+   .logoBase{
+      height: 18px;
+      width: 18px;
+   }
+   .contractBoxText{
+      font-size: 14px;
+      text-align: center;
+      word-break: break-word;
+      margin-top: 15px;
+   }
+   .contractBoxButtons{
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0;
+      margin-top: 10px;
+   }
+   .btnCopy{
+      margin: 0;
+   }
+   .firstSectionHeaders{
+      margin-top: 185px;
+   }
+   .firstSectionHeader{
+      font-size: 100px;
+      margin-left: -7%;
+   }
+   .firstSectionHeaderSmall{
+      font-size: 30px;
+      text-align: center;
+   }
+   .firstSectionImg{
+      width: 100%;
+   }
+   .sectionHeader{
+      font-size: 20px;
+   }
+   .submarine{
+      width:max-content;
+   }
+   .submarineimg{
+       width: 294px;
+      height: 200px;
+   }
+
+
+   .thirdSection{
+      margin-top: 50px;
+   }
+   .thirdSectionBlockRight img {
+      max-width: 70%;
+      height: auto;
+      margin: 0;
+   }
+   .thirdSectionBlockLeft{
+      width: 90%;
+   }
+   .thirdSectionBlockLeftHeader{
+      font-size: 18px;
+      text-align: center;
+   }
+   .thirdSectionBlockListItem{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .itemText{
+      text-align: center;
+      margin: 0;
+   }
+   .cosmonaut{
+      display: flex;
+      justify-content: center;
+   }
+   .cosmonautimg{
+      height: auto;
+      width: 300px;
+   }
+   .fifthsection{
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+   }
+   .fifthsectionleftblock{
+      order: 2;
+   }
+   .TOKENOMICS{
+      font-size: 40px;
+   }
+   .fifthsectionrightblock{
+      order: 1;
+   }
+   .sixSectionblocktop{
+      width: 90%;
+      margin: auto;
+   }
+   .sixsectionblockrightHeader{
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 25px;
+   }
+   .sixsectionblockrightText{
+      font-size: 18px;
+      text-align: center;
+   }
+   .sixSectionblockEnd{
+      font-size: 18px;
+      text-align: center;
+      width: 90%;
+   }
+   .sixSectionBox{
+      width: 100%;
+      height: max-content;
+   }
+   .sixSectionImg{
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+   }
+   .sixSectionImg:last-child{
+      margin-bottom: 20px;
+   }
+   .SixSectionImgText{
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      margin-top: 10px;
+   }
+   .sevenSectionblocktop{
+      width: 90%;
+      margin: auto;
+   }
+   .fourthsectionblockrightText{
+      width: 90%;
+      margin: auto;
+      margin-top: 45px;
+      margin-bottom: 70px;
+      text-align: center;
+   }
+   .fourthsectionblockrightHeader{
+      font-size: 20px;
+   }
+   #TrackSectionSeven{
+      font-size: 38px;
+   }
+   .sevenSectionText{
+      padding-bottom: 30px;
+   }
+   .ninthsectionblockrightlist{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin: auto;
+   }
+   .ninthsectionblockrightlistText{
+      margin: 0;
+   }
+   .planetimg{
+      height: auto;
+      width: 200px;
+   }
+   .ninthsectionText{
+      width: 90%;
+      margin: auto;
+      margin-top: 85px;
+      margin-bottom: 25px;
+   }
+   .footerheader{
+      font-size: 40px;
+   }
+   .navbarLinkImgFooter{
+      width: 30px;
+      height: 30px;
+   }
+  
+}

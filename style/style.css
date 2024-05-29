@@ -58,14 +58,14 @@ p, h4{
    margin-top: 10px;
 }
 .contractBoxHeader{
-   font-size: 28px;
+   font-size: 30px;
    color: #0052fe;
 }
 .firstSectionHeader{
    font-size: 200px;
 }
 .logoBase{
-   height: 24px;
+   height: 26px;
    margin-top: 4px;
    margin-left: 30px;
    margin-right: 5px;
@@ -76,7 +76,7 @@ p, h4{
    margin-top: 30px;
 }
 .firstSectionHeaderSmall{
-   font-size: 67px;
+   font-size: 70px;
    color: #0052fe;
 }
 .contractBoxButtons{
@@ -114,19 +114,24 @@ p, h4{
    font-weight: 700;
 }
 .sectionHeader{
-   font-size: 37.5px;
+   font-size: 40px;
    text-align: center;
+   margin-top: 93px;
 }
 .secondSectionBlock{
    display: flex;
    justify-content: space-between;
-   margin-top: 100px;
+   margin-top: 61px;
 }
 .secondSectiontext{
    margin-left: 25px;
-   font-size: 20px;
+   font-size: 24px;
    font-weight: 300;
    margin-top: 25px;
+}
+.submarine{
+   display: flex;
+   align-items: center;
 }
 .thirdSection{
    margin-top: 200px;
@@ -137,7 +142,7 @@ p, h4{
    margin-top: 100px;
 }
 .thirdSectionBlockLeftHeader{
-   font-size: 23px;
+   font-size: 16px;
    font-weight: 700;
    margin-bottom: 20px;
 }
@@ -173,11 +178,21 @@ p, h4{
 .fourthsectionblockrightText{
    font-size: 17px;
    margin-top: 30px;
+   width: 70%;
 }
 .fourthsectionblockright{
    display: flex;
    flex-direction: column;
    justify-content: center;
+}
+.cosmonautimg{
+   width: 100%;
+}
+.CosmonautImgMob{
+   display: none;
+}
+.CosmonautImgMobDiv{
+   display: none;
 }
 .fifthsection{
    display: flex;
@@ -192,6 +207,9 @@ p, h4{
 .fifthsectionleftblockTextAndBlueCircle{
    display: flex;
    margin-top: 20px;
+}
+.ChartImgMobDiv{
+   display: none;
 }
 .blueTextBoldheador{
    color: #0052fe;
@@ -211,6 +229,9 @@ p, h4{
    display: flex;
    flex-direction: column;
    justify-content: center;
+}
+.ChartImgMob{
+   display: none;
 }
 .BlueCircle{
    height: 20px;
@@ -289,7 +310,7 @@ p, h4{
 .sixsectionblockrightHeader{
    font-size: 38px;
    font-weight: 700;
-   margin-bottom: 42px;
+   margin-bottom: 35px;
 }
 .sixsectionblockrightText{
    margin-bottom: 30px;
@@ -303,73 +324,8 @@ p, h4{
 .sixSectionblockEnd{
    display: flex;
    justify-content: center;
-   margin-top: 115px;
+   margin-top: 105px;
 }
-.ninthsection{
-   margin-top: 50px
-}
-.ninthsectionblock{
-   display: flex;
-   justify-content: space-between;
-}
-.ninthsectionblockrightlist{
-   display: flex;
-   align-items: center;
-}
-.ninthsectionblockleft{
-   display: flex;
-   align-items: center;
-}
-.ninthsectionblockrightlistText{
-   font-size: 25px;
-   margin-left: 20px;
-}
-.btnBuy2{
-   width: 250px;
-   height: 50px;
-   background-color: #0052fe;
-   border: 1px solid #0052fe;
-   color: white;
-   font-size: 17px;
-   border-radius: 10px;
-   text-align: center;
-}
-.ninthsectionText{
-   text-align: center;
-   color: #0052fe;
-   margin-top: 60px;
-}
-.ninthsectionbutton{
-   display: flex;
-   justify-content: center;
-   margin-top: 25px;
-   margin-bottom: 110px;
-}
-.ninthsectionheader{
-   text-align: center;
-   font-size: 50px; 
-   color: #0052fe; 
-   margin-top: 10px;
-   margin-bottom: 50px;
-}
-footer{
-   background-color: #000;
-}
-.footer{
-   display: flex;
-   justify-content: space-between;
-   height: 100px;
-   align-items: center;
-}
-.footersocial{
-   display: flex;
-}
-.footerheader{
-   font-size: 50px;
-   color: #0052fe;
-   margin-left: 100px;
-}
-
 .sixSectionBox{
    border: solid 1px #0052fe ;
    height: 375px;
@@ -439,16 +395,151 @@ footer{
    background-color: #0052fe;
    border-radius: 10px;
 }
+.eighthsection{
+   margin-top: 50px;
+}
+.sectionBuyBox{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+/* .sectionBuyBoxListItem{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   margin-bottom: 45px;
+}
+.sectionBuyBoxListItemText{
+   margin-left: 30px;
+   font-size: 20px;
+   font-weight: 700;
+} */
+.sectionBuyBoxRight {
+   display: flex;
+   align-items: center;
+}
+.sectionBuyBoxListWatch{
+   display: flex;
+}
+.sectionBuyBoxListWatchText{
+   margin-top: -12px;
+   margin-left: 5px;
+}
+.sectionBuyBoxListBtn {
+   position: relative;
+   right: -120px;
+}
+.sectionBuyBoxListItem {
+   display: flex;
+   align-items: center;
+   margin-bottom: 45px;
+   position: relative;
+}
+.sectionBuyBoxListItemImg {
+   position: relative;
+   z-index: 1;
+}
+.sectionBuyBoxListItemText {
+   margin-left: 30px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.sectionBuyBoxListItem::before {
+   content: "";
+   position: absolute;
+   left: 32px; 
+   top: 10px;
+   bottom: -55px;
+   width: 3px;
+   background: repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 5px,
+      #b5bfc9 5px,
+      #b5bfc9 10px
+   );
+   z-index: -1;
+}
+.sectionBuyBoxListItem:last-child::before {
+   bottom: 0; 
+}
+.ninthsection{
+   margin-top: 50px
+}
+.ninthsectionblock{
+   display: flex;
+   justify-content: space-between;
+}
+.PlanetImgMob{
+   display: none;
+}
+.PlanetImgMobDiv{
+   display: none;
+}
+.ninthsectionblockrightlist{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.ninthsectionblockleft{
+   display: flex;
+   align-items: center;
+}
+.ninthsectionblockrightlistText{
+   font-size: 25px;
+   margin-left: 20px;
+}
+.btnBuy2{
+   width: 250px;
+   height: 50px;
+   background-color: #0052fe;
+   border: 1px solid #0052fe;
+   color: white;
+   font-size: 17px;
+   border-radius: 10px;
+   text-align: center;
+}
+.ninthsectionText{
+   text-align: center;
+   color: #0052fe;
+   margin-top: 40px;
+}
+.ninthsectionbutton{
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+   margin-bottom: 110px;
+}
+.ninthsectionheader{
+   text-align: center;
+   font-size: 50px; 
+   color: #0052fe; 
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+footer{
+   background-color: #000;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+   align-items: center;
+}
+.footersocial{
+   display: flex;
+}
+.footerheader{
+   font-size: 50px;
+   color: #0052fe;
+   margin-left: 100px;
+}
 .fff{
    color: #e7efff;
 }
 .margin{
    margin-top: 10px;
 }
-.eighthsection{
-   margin-top: 50px;
-}
-
 .tooltip {
   position: relative;
   display: inline-block;
@@ -458,7 +549,7 @@ footer{
   width: 120px;
   top: 120%;
   left: 50%;
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  margin-left: -63px; 
 }
 
 .tooltip .tooltiptext {
@@ -584,6 +675,22 @@ footer{
       display: block;
       text-align: center;
    }
+   .eighthsectionBlockTop{
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+
+   }
+   .sectionBuyBoxLeft{
+      display: flex;
+      align-items:center
+   }
+   .sectionBuyBoxLeft img{
+      width: 100%;
+   }
+   .sectionBuyBoxListBtn{
+      right: -70px;
+   }
    .ninthsectionblockrightlistText{
       font-size: 17px;
    }
@@ -593,6 +700,7 @@ footer{
    .ninthsectionheader{
       font-size: 40px;
    }
+   
 }
 @media screen and (max-width: 950px){
    .firstSection{
@@ -616,19 +724,40 @@ footer{
    .sixSectionBorder{
       margin-top: 30px;
    }
+   .sectionBuyLine{
+      height: 100%;
+      width: 30%;
+   }
 }
 @media screen and (max-width: 770px){
    
    .contractBox{
       justify-content: center;
    }
+   .secondSectiontext{
+      font-size: 18px;
+   }
    .fourthsection{
       display: flex;
       flex-direction: column;
       align-items: center;
    }
+   .FourthSectionBlockRightTextDiv{
+      display: flex;
+      justify-content: center;
+   }
    .cosmonautimg{
       width: 120%;
+      height: auto;
+      display: none;
+   }
+   .CosmonautImgMobDiv{
+      display: flex;
+      justify-content: center;
+   }
+   .CosmonautImgMob{
+      display: flex;
+      width: 60%;
       height: auto;
    }
    .fourthsectionblockrightHeader{
@@ -639,21 +768,76 @@ footer{
       text-align: center;
    }
    .fourthsectionblockrightText{
-      font-size: 20px;
-      align-items: center;
+      font-size: 17px;
+      text-align: center;
    }
    .chartimg{
       height: auto;
       width: 90%;
+      display: none;
+   }
+   .ChartImgMob{
+      display: flex;
+      height: auto;
+      width: 90%;
+      justify-content: center;
+      margin-top: 30px;
+   }
+   .ChartImgMobDiv{
+      display: flex;
+      justify-content: center;
+   }
+   .fifthsection{
+      display: flex;
+      justify-content: center;
+   }
+   .fifthsectionleftblock{
+      display: flex;
+      justify-content: center;
+   }
+   .fifthsectionrightblock{
+      display: none;
+   }
+   .fifthsectionleftblockText{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
    }
    .TOKENOMICS{
       font-size: 50px;
+      text-align: center;
    }
    .fifthsectionmediaundertheheador{
       font-size: 20px;
    }
    .fifthsectionleftText{
       font-size: 16px;
+   }
+   .sectionBuyLine{
+      height: 100%;
+      width: 15%;
+   }
+   .eighthsectionBlockTop{
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+   }
+   .eighthsectionBlockTopRight{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .eighthsectionBlockTopLeft{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+   }
+   .BaseScanDiv{
+      margin-bottom: 20px;
+   }
+   .eighthsectionBlockTopRightHeader{
+      text-align: center;
    }
    .ninthsectionblock{
       flex-wrap: wrap;
@@ -667,6 +851,10 @@ footer{
       width: max-content;
       margin: auto;
    }
+   .PlanetImgMob{
+      height: auto;
+      width: 200px;
+   }
    /* .ninthsectionblockrightlistText{
       font-size: 20px;
    } */
@@ -674,12 +862,21 @@ footer{
       height: ;
    } */
    .ninthsectionheader{
-      margin-bottom: 20px;
+      margin-bottom: 15px;
    }
    .piople{
       height: 80px;
    }
-   .eighthsection{
+   .PlanetImgMob{
+      display: block;
+   }
+   .PlanetImgMobDiv{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+   }
+   .planetimg{
       display: none;
    }
 }
@@ -691,7 +888,7 @@ footer{
 }
 @media screen and (max-width: 550px){
    .footer{
-      flex-wrap: wrap;
+      flex-direction: column;
       justify-content: center;
       height: max-content;
    }
@@ -704,7 +901,33 @@ footer{
    }
 
 }
-@media screen and (max-width: 330px){
+/* @media screen and (max-width: 425px){
+   .eighthsectionBlockTopRightHeader{
+      font-size: 35px;
+   }
+   .eighthsectionBlockTopRightText{
+      font-size: 14px;
+   }
+   .contractBoxHeader{
+      font-size: 20px;
+   }
+   .contractBoxHeader{
+      font-size: 20px;
+   }
+   .logoBase{
+      height: 20px;
+   }
+   .eighthsectionBlockTopLeftNumber{
+      font-size: 14px;
+   }
+   .btnCopy2{
+      font-size: 16px;
+      width: 115px;
+      height: 30px;
+   }
+} */
+   
+@media screen and (max-width: 650px){
    .navbarHeader{
       font-size: 18px;
    }
@@ -723,10 +946,11 @@ footer{
       flex-direction: column;
       justify-content: center;
    }
-   .contractBoxHeader{
+   .contractBoxHeaders{
       font-size: 18px;
-      text-align: center;
+      justify-content: center;
    }
+   
    .logoBase{
       height: 18px;
       width: 18px;
@@ -747,11 +971,11 @@ footer{
       margin: 0;
    }
    .firstSectionHeaders{
-      margin-top: 185px;
+      margin-top: 155px;
    }
    .firstSectionHeader{
       font-size: 100px;
-      margin-left: -7%;
+      text-align: center;
    }
    .firstSectionHeaderSmall{
       font-size: 30px;
@@ -759,6 +983,8 @@ footer{
    }
    .firstSectionImg{
       width: 100%;
+      margin-top: 30px;
+      margin-bottom: 90px;
    }
    .sectionHeader{
       font-size: 20px;
@@ -811,6 +1037,18 @@ footer{
    .fifthsectionleftblock{
       order: 2;
    }
+   .CircleCenter{
+      display: flex;
+      align-items: flex-start;
+   }
+   .fifthsectionleftText{
+      /* width: 70%; */
+   }
+   .ChartImgMob{
+      width: 200px;
+      height: auto;
+   }
+   
    .TOKENOMICS{
       font-size: 40px;
    }
@@ -829,11 +1067,13 @@ footer{
    .sixsectionblockrightText{
       font-size: 18px;
       text-align: center;
+
    }
    .sixSectionblockEnd{
       font-size: 18px;
       text-align: center;
       width: 90%;
+      margin-top: 60px;
    }
    .sixSectionBox{
       width: 100%;
@@ -852,6 +1092,9 @@ footer{
       margin: auto;
       text-align: center;
       margin-top: 10px;
+   }
+   .sixSectionImgBorder{
+      margin-top: 0;
    }
    .sevenSectionblocktop{
       width: 90%;
@@ -879,8 +1122,64 @@ footer{
       width: 90%;
       margin: auto;
    }
+   .eighthsectionBlockTopRightHeader{
+      font-size: 15pt;
+      text-align: center;
+   }
+   .eighthsectionBlockTopRightText{
+      font-size: 8pt;
+      margin-top: 32px;
+   }
+   .contractBoxHeader{
+      font-size: 20px;
+   }
+   .contractBoxHeader{
+      font-size: 13pt;
+   }
+   .logoBase{
+      height: 13pt;
+   }
+   .eighthsectionBlockTopLeftNumber{
+      font-size: 8pt;
+      margin-bottom: 10px;
+   }
+   .btnCopy2{
+      font-size: 14px;
+      width: 105px;
+      height: 25px;
+   }
+   .sectionBuyBox{
+      flex-direction: column;
+   }
+   .sectionBuyBoxListWatch{
+      justify-content: center;
+      margin-left: 10%;
+      margin-top: 55px;
+   }
+   .sectionBuyBoxListBtn{
+      right: 0;
+      width: 92%;
+      margin: auto;
+   }
+   .sectionBuyBoxListItem{
+      flex-direction: column;
+   }
+   .sectionBuyBoxListItemText{
+      text-align: center;
+      margin: auto;
+   }
+   .sectionBuyBoxListItem::before{
+      left: 50%;
+   }
+   .sectionBuyLine{
+      display: none;
+   }
+
    .ninthsectionblockrightlistText{
       margin: 0;
+   }
+   .ninthsectionblockrightlist{
+      margin-top: 70px;
    }
    .planetimg{
       height: auto;
@@ -889,7 +1188,7 @@ footer{
    .ninthsectionText{
       width: 90%;
       margin: auto;
-      margin-top: 85px;
+      margin-top: 70px;
       margin-bottom: 25px;
    }
    .footerheader{
@@ -899,5 +1198,30 @@ footer{
       width: 30px;
       height: 30px;
    }
-  
+  .firstSectionImg{
+   margin-top: 15px;
+   margin-bottom: 35px;
+  }
+  .SixSectionImgText{
+   margin-bottom: 35px;
+  }
+  .sixSection{
+   margin-bottom: 104px
+  }
+  .ninthsectionbutton{
+   margin-bottom: 158px;
+  }
+}
+@media screen and (max-width: 350px){
+   .firstSectionHeader{
+      font-size: 100px;
+      margin-left: -20px;
+   }
+   .fifthsectionleftblockText{
+      align-items: flex-start;
+      width: 95%;
+      margin: auto;
+      margin-top: 50px;
+   }
+
 }

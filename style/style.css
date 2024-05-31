@@ -19,6 +19,7 @@
 }
 body {
    font-family: 'Ramona', sans-serif;
+   overflow-x: hidden;
 }
 p, h4{
    line-height: 1.5;
@@ -26,6 +27,7 @@ p, h4{
 .container{
    width: 1140px;
    margin: auto;
+   overflow-x: hidden;
 }
 .bgGray{
    background-color: #e6e6e6;

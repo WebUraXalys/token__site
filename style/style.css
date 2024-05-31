@@ -125,7 +125,7 @@ p, h4{
 }
 .secondSectiontext{
    margin-left: 25px;
-   font-size: 24px;
+   font-size: 18px;
    font-weight: 300;
    margin-top: 25px;
 }
@@ -582,6 +582,9 @@ footer{
 }
 .hoverbutton:hover{
    transform: scale(1.2);
+}
+.no-pointer-events {
+    pointer-events: none;
 }
 .CircleCenter{
    display: flex;
